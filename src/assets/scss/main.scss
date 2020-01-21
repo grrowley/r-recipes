@@ -1,0 +1,18 @@
+@import url('//fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap');
+
+@import
+    './abstract/variables',
+    './abstract/functions',
+    './abstract/mixins';
+
+@import
+    '../../../node_modules/bootstrap/scss/bootstrap',
+    '../../../node_modules/bootstrap-vue/src/index',
+    '../../../node_modules/@fortawesome/fontawesome-pro/scss/fontawesome',
+    '../../../node_modules/@fortawesome/fontawesome-pro/scss/light',
+    '../../../node_modules/@fortawesome/fontawesome-pro/scss/regular',
+    '../../../node_modules/@fortawesome/fontawesome-pro/scss/solid',
+    '../../../node_modules/@fortawesome/fontawesome-pro/scss/brands',
+    '../../../node_modules/@fortawesome/fontawesome-pro/scss/duotone',
+    '../../../node_modules/vue-wysiwyg/dist/vueWysiwyg',
+    '../../../node_modules/vue-select/src/scss/vue-select';

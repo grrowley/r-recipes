@@ -1,0 +1,4 @@
+@mixin font-size($size, $important) {
+    font-size: $size if($important, '!important', ''); // Fallback in px
+    font-size: rem($size) if($important, '!important', '');
+}
